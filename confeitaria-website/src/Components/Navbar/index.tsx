@@ -1,7 +1,10 @@
 export default function Navbar() {
     return (
         <>
-            <h1>Hello world</h1>
+            <span>Emy's</span>
+            <nav>
+                
+            </nav>
         </>
     )
 }
