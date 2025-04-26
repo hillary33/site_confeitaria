@@ -1,13 +1,14 @@
-import React from 'react';
-import './App.css'
-import { Routes } from './routes';
+import Navbar from "./Components/Navbar";
+import './App.css';
+import { Outlet } from "react-router-dom";
+import Footer from "./Components/Footer";
 
-function App() {
-  return (
+export default function App() {
+    return(
     <>
-    <Routes />
-    </>
-  )
+        <Navbar/>
+        <Outlet />
+        <Footer />
+    </>    
+ )
 }
-
-export default App
