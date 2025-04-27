@@ -1,0 +1,30 @@
+:root {
+    --color-primary: #FFCACD;
+    --color-secondary: #FFB3C1;
+    --color-tertiary: #FF9DAF;
+    --color-quaternary: #FF8FA0;
+    --color-quinary: #FF7F8C;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-primary);
+    color: var(--color-quinary);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--color-secondary);
+}
+
+p {
+    font-size: 1.2rem;
+    color: var(--color-tertiary);
+}
+
+Link {
+    color: var(--color-quaternary);
+    text-decoration: none;
+}
