@@ -24,7 +24,7 @@ p {
     color: var(--color-tertiary);
 }
 
-Link {
+a {
     color: var(--color-quaternary);
     text-decoration: none;
 }
