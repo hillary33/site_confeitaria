@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    line-height: 20px;
+}
