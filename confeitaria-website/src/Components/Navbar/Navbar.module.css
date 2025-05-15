@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poetsen+One&family=Press+Start+2P&family=Sawarabi+Mincho&display=swap');
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: var(--color-secondary);
+    color: #fff;
+    line-height: 30px;
+}
+
+.logo {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;    
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    font-family: "Sawarabi Mincho", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}

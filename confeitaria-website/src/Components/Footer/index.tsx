@@ -1,8 +1,9 @@
+import styles from './Footer.module.css';
+
 export default function Footer(){
     return(
-        <footer>
-            <p>Emy's Confectionery &copy; 2025</p>
-            <p>All rights reserved.</p>
+        <footer className={styles.footerContainer}>
+            <p>Emy's Confeitaria &copy; 2025</p>
         </footer>
     )
 }
