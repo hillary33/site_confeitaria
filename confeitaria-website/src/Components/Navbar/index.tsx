@@ -10,6 +10,5 @@ export default function Navbar() {
                 <Link to='/cardapio'>Cardápio</Link> 
                 <Link to='/contato'>Contato</Link> 
             </nav>
-        </div>
     )
 }
